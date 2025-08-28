@@ -16,6 +16,7 @@ public class PokemonRepositoryImp implements PokemonRepository {
 
     @Override
     public Pokemon getPokemonByName(String name) throws Exception {
+
         return PokemonMapper.toDomain(
                 pokemonAPIClient.getPokemon(name)
         );

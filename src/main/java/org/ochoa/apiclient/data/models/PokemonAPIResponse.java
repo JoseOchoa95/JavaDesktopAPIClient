@@ -5,7 +5,8 @@ import java.util.List;
 public record PokemonAPIResponse(
         Integer id,
         String name,
-        List<MoveAPIResponse> moves,
-        List<AbilityAPIResponse> abilities
+        List<MovesAPIResponse> moves,
+        List<AbilitiesAPIResponse> abilities,
+        SpritesAPIResponse sprites
 ) {
 }
