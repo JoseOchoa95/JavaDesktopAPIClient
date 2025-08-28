@@ -1,12 +1,12 @@
 # Pokémon API Client 🎮
 
-Una aplicación de escritorio JavaFX que se conecta a la PokeAPI para obtener información detallada sobre Pokémon, construida con arquitectura hexagonal y Java 21.
+Una aplicación de escritorio JavaFX que se conecta a la PokeAPI para obtener información detallada sobre Pokémon, construida con clean architecture y Java 21.
 
 ## 🚀 Características
 
 - **Interfaz gráfica moderna** con JavaFX
 - **Conexión a PokeAPI** para obtener datos en tiempo real
-- **Arquitectura hexagonal** para mejor mantenibilidad y testabilidad
+- **Arquitectura clean** para mejor mantenibilidad y testabilidad
 - **Búsqueda en tiempo real** de Pokémon por nombre
 - **Visualización de información completa**: habilidades, tipos, stats, etc.
 - **Diseño responsive** que se adapta a diferentes tamaños de pantalla
@@ -17,7 +17,7 @@ Una aplicación de escritorio JavaFX que se conecta a la PokeAPI para obtener in
 - **JavaFX 21** - Interfaz gráfica
 - **OkHttp 4.12.0** - Cliente HTTP
 - **Gson** - Serialización/Deserialización JSON
-- **Arquitectura Hexagonal** - Patrón de diseño
+- **Arquitectura clean** - Patrón de diseño
 
 ## 📦 Requisitos del Sistema
 
