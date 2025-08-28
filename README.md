@@ -26,21 +26,37 @@ Una aplicación de escritorio JavaFX que se conecta a la PokeAPI para obtener in
 - Conexión a internet (para acceder a PokeAPI)
 
 ## 🏗️ Estructura del Proyecto
+
 src/
+
 ├── main/
+
 │ ├── java/
+
 │ │ └── org/ochoa/apiclient/
+
 │ │ ├── data/
+
 │ │ │ ├── api/ # Puerto: Cliente HTTP
+
 │ │ │ ├── models/ # Modelos de datos
+
 │ │ │ └── PokemonRepository.java
+
 │ │ ├── domain/ # Lógica de negocio
+
 │ │ │ ├── models/
+
 │ │ │ └── usecases/
+
 │ │ ├── ui/ # Adaptador primario: UI
+
 │ │ │ └── controllers/
+
 │ │ └── PokeAPIApplication.java
+
 │ └── resources/
+
 │ └── images/ # Assets de la aplicación
 
 ## 🔧 Instalación y Ejecución
