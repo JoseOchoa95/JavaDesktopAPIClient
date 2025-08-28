@@ -73,6 +73,7 @@ public class Controller {
             errorLabel.setText(null);
         }catch (Exception e){
             errorLabel.setText("Pokémon no encontrado.");
+            e.printStackTrace();
         }
 
     }

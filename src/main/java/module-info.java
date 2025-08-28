@@ -7,6 +7,7 @@ module org.ochoa.apiclient {
     requires okhttp3;
     requires com.google.gson;
 
+    opens org.ochoa.apiclient.data.models to com.google.gson, okhttp3;
     opens org.ochoa.apiclient to javafx.fxml;
     exports org.ochoa.apiclient;
     exports org.ochoa.apiclient.ui.controllers;

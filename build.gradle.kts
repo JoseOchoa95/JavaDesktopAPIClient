@@ -27,7 +27,7 @@ tasks.withType<JavaCompile> {
 
 application {
     mainModule.set("org.ochoa.apiclient")
-    mainClass.set("org.ochoa.apiclient.HelloApplication")
+    mainClass.set("org.ochoa.apiclient.Launcher")
 }
 
 javafx {
@@ -43,7 +43,8 @@ dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
 
-    implementation("com.squareup.okhttp3:okhttp:5.1.0")
+    //implementation("com.squareup.okhttp3:okhttp:4.9.2")
+    implementation("com.squareup.okhttp3:okhttp:3.14.9")
     implementation("com.google.code.gson:gson:2.13.1")
 }
 
